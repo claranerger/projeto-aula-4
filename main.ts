@@ -1,5 +1,4 @@
-basic.showNumber(0)
-basic.pause(500)
+basic.showIcon(IconNames.Silly)
 basic.forever(function () {
     basic.showNumber(1)
     basic.pause(100)
@@ -7,4 +6,7 @@ basic.forever(function () {
     basic.pause(100)
     basic.showNumber(3)
     basic.pause(100)
+    basic.showNumber(4)
+    basic.pause(100)
+    basic.showNumber(5)
 })
